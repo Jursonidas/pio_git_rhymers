@@ -7,7 +7,7 @@ public class DefaultCountingOutRhymer {
     private int[] NUMBERS = new int[ROZMIAR_TAB];
 
     public int _total = MINUS_1;
-
+    
     public void countIn(int in) {
         if (!isFull())
             NUMBERS[++_total] = in;
