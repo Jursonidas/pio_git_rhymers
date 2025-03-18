@@ -2,9 +2,9 @@ package edu.kis.vh.nursery;
 
 public class DefaultCountingOutRhymer {
 
-    public static int MINUS_ONE = -1;
-    public static int ROZMIAR_TAB = 12;
-    private int[] NUMBERS = new int[ROZMIAR_TAB];
+    public static final int MINUS_ONE = -1;
+    public static final int ROZMIAR_TAB = 12;
+    private final int[] NUMBERS = new int[ROZMIAR_TAB];
 
     public int _total = MINUS_ONE;
 
