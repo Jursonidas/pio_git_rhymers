@@ -1,0 +1,15 @@
+# Ignorowanie plików systemowych
+*.log
+*.DS_Store
+
+# Ignorowanie folderu IntelliJ
+.idea/
+
+# Ignorowanie katalogów Mavena i Javy
+target/
+out/
+
+# Ignorowanie plików binarnych
+*.class
+*.jar
+*.war
